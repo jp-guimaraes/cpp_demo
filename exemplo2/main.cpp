@@ -3,7 +3,12 @@ using namespace std;
 
 int main(){
 
-    int x = 0;
-    cout << "teste" << endl;
+    char x = 'j';
+    
+    cout << "Valor de x: " << x << endl;
+    cout << "Endereço de x: " << &x << endl;    
 
+
+
+    
 }
