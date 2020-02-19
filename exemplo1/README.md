@@ -1,28 +1,19 @@
-# cpp_demo
-Assembly from cpp simple code
+# Exemplo 1 
 
+O script 'exemplo1.sh' compila o código super_simples.c e simples.c e gera dois arquivos executáveis.
 
-## echo
+Após isso, através do programa 'objdump', o código em linguagem de máquina dos executáveis são mostrados.
 
-O comando `echo` tem a função de exibir uma string no terminal. O contexto em que ele é mais utilizado é na criação de scripts para o bash, para exibir informação ao usuário.
+Experimente mudar o tipo de variável e o seu conteúdo e observe as mudanças no equivalente em linguagem de máquina.
 
-O uso do comando é o seguinte:
+Para executar o script basta fazer:
 ```shell
-echo o_texto_que_eu_quero_exibir
+echo ./exemplo1.sh
 
 ````
 Veja:
 
 ![Bash cmd cd](https://github.com/jp-guimaraes/clonagem/blob/master/assets/terminal_gifs/cmd_echo.gif)
-
-## pwd
-
-O comando `pwd` tem a função de exibir qual o diretório atual. O uso do comando é o seguinte:
-```shell
-pwd
-````
-Veja:
-
 
 
 
